@@ -9,9 +9,13 @@
 // mod loops;
 // mod functions;
 // mod pointers_refs;
-mod structs;
+// mod structs;
+mod enums;
 
 fn main() {
+    // print::run();
+    // vars::run();
+    // types::run();
     // strings::run();
     // tuples::run();
     // arrays::run();
@@ -19,5 +23,7 @@ fn main() {
     // conditionals::run();
     // loops::run();
     // functions::run();
-    structs::run();
+    // pointers_refs::run();
+    // structs::run();
+    enums::run();
 }
