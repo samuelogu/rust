@@ -1,6 +1,3 @@
-// use std::time;
-// use std::thread::sleep;
-// use std::{thread, time};
 use tokio::time::{sleep, Duration};
 
 async fn hello_world() {
