@@ -11,9 +11,11 @@
 // mod pointers_refs;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
+mod async_await;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     // print::run();
     // vars::run();
     // types::run();
@@ -27,5 +29,6 @@ fn main() {
     // pointers_refs::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    async_await::run().await;
+
 }
